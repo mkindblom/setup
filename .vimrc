@@ -24,6 +24,12 @@ noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
 
+"ta av stödhjulen ++
+inoremap   <Up>     <NOP>
+inoremap   <Down>   <NOP>
+inoremap   <Left>   <NOP>
+inoremap   <Right>  <NOP>
+
 " {{{ Autocompletion using tab
 
 " This function determines whether we are on the start of the line text
@@ -47,4 +53,5 @@ command! W w
 command! Tabe tabe
 command! Wq wq
 command! WQ wq
+command! Q q
 " }}}
