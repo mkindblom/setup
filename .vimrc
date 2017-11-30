@@ -18,17 +18,20 @@ if has("gui")
 	set guifont=Source\ Code\ Pro:h14
 endif
 
-"ta av stödhjulen
+" ta av stödhjulen
 noremap   <Up>     <NOP>
 noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
 
-"ta av stödhjulen ++
+" ta av stödhjulen ++
 inoremap   <Up>     <NOP>
 inoremap   <Down>   <NOP>
 inoremap   <Left>   <NOP>
 inoremap   <Right>  <NOP>
+
+" insert newline and not enter insertion mode
+nnoremap -o o<Esc>
 
 " {{{ Autocompletion using tab
 
