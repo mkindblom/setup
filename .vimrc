@@ -9,7 +9,7 @@ set shiftwidth=4
 set scrolloff=10
 set expandtab
 set fdm=indent
-set foldlevel=1
+set foldlevel=0
 set number
 "set mouse=
 "colorscheme hej
